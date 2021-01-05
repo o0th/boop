@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const title = "Yooooooo";
+import Application from "./components/application";
 
-ReactDOM.render(<div>{title}</div>, document.getElementById("app"));
+ReactDOM.render(<Application />, document.getElementById("Application"));
 
 module.hot.accept();
