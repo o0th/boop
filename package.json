@@ -1,0 +1,35 @@
+{
+  "name": "boop",
+  "version": "0.0.0",
+  "description": "boop me",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o0th/boop.git"
+  },
+  "author": "Sabato Luca Guadagno <o0th@pm.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/o0th/boop/issues"
+  },
+  "homepage": "https://github.com/o0th/boop#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.5.1",
+    "react-hot-loader": "^4.13.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
