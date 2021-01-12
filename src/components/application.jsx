@@ -1,11 +1,22 @@
-import React from "react";
-import './application.css';
+import React from 'react'
+import Image from './image/image'
 
+import photo from '../../public/photo.jpeg'
 
-class Application extends React.Component {
-  render() {
-    return <div className="application">Hello world asdomare</div>;
-  }
-}
+import './application.css'
 
-export default Application;
+const Application = () => (
+  <div className="application">
+    <div className="grid">
+      <div className="column">Boop!</div>
+    </div>
+    <div className="grid">
+      <div className="column">
+        <Image src={photo} />
+        <Image src={photo} />
+      </div>
+    </div>
+  </div>
+)
+
+export default Application

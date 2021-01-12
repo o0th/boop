@@ -1,4 +1,34 @@
+:root {
+  --neutral: #efefef;
+  --watermelon: #ff3b3f;
+  --carbon: #a9a9a9;
+  --sky: #caebf2;
+}
+
 html {
-  color: white;
-  background-color: black;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+
+  font-size: 62.5%;
+
+  background-color: var(--neutral);
+}
+
+body {
+  margin: 0;
+
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.grid {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.column {
+  flex: 1;
 }
