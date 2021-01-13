@@ -33,12 +33,15 @@
     "html-webpack-plugin": "^4.5.1",
     "prop-types": "^15.7.2",
     "react-hot-loader": "^4.13.0",
+    "sass-loader": "^10.1.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.11.1"
   },
   "dependencies": {
+    "bulma": "^0.9.1",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
